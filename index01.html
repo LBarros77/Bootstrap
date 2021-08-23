@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            flex-flow: wrap;
+            align-content: center;
+            justify-content: center;
+        }
+
+        form header,
+        form footer {
+            text-align: center;
+        }
+
+        div form {
+            border: 1px solid green;
+        }
+
+        header {margin: 2em;}
+
+        footer {margin: 3em;}
+
+        form header img {margin-bottom: 1em}
+    </style>
+</head>
+<body>
+    
+    <form class="col-4 align-items-center">
+        <header>
+            <img src="./_pictures/image-b.png" alt="bootstrap">
+            <h4>Faça login</h4>
+        </header>
+        <div class="mb-3">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+        </div>
+        <div class="mb-3">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary col-12">Submit</button>
+        <footer>&copy; 2017-2018</footer>
+    </form>
+    
+</body>
+</html>

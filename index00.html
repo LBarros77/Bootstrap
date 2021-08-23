@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Document</title>
+
+    <style>
+        main#mainbar {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+
+        main section#containerbar {
+          padding: 10vh auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item"><!--Write text color-->
+                    <a class="nav-link" href="#" style="color:gray">Features</a>
+                  </li>
+                  <li class="nav-item"><!--Write text color-->
+                    <a class="nav-link" href="#" style="color:gray">Pricing</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:gray">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main id="mainbar">
+        <section class="container" id="containerbar">
+            <h1>Olá, mundo!</h1>
+            <p>Este é um simples template para um marketing ou um website informal. Ele inclui um callout grande (denominado junbontron) e três conteúdos adicionais. Use o como um ponto de partida para algo mais peculiar.</p><br>
+            <input type="button" class="btn btn-primary" value="Saiba mais >>">
+        </section>
+        <section class="d-flex">
+            <div>
+                <h1>Título</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui magnam sunt fugit earum incidunt distinctio molestias omnis itaque error nostrum. Quae corrupti voluptate aut non obcaecati dignissimos nisi. Porro, delectus?</p><br>
+                <input type="button" class="btn btn-secondary" value="Ver detalhes >>">
+            </div>
+            <div>
+                <h1>Título</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui magnam sunt fugit earum incidunt distinctio molestias omnis itaque error nostrum. Quae corrupti voluptate aut non obcaecati dignissimos nisi. Porro, delectus?</p><br>
+                <input type="button" class="btn btn-secondary" value="Ver detalhes >>">
+            </div>
+            <div>
+                <h1>Título</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui magnam sunt fugit earum incidunt distinctio molestias omnis itaque error nostrum. Quae corrupti voluptate aut non obcaecati dignissimos nisi. Porro, delectus?</p><br>
+                <input type="button" class="btn btn-secondary" value="Ver detalhes >>">
+            </div>
+        </section>
+    </main>  
+</body>
+</html>
